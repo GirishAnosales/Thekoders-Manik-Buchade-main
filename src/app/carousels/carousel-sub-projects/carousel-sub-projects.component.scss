@@ -1,0 +1,82 @@
+@media screen and (min-width: 0px) {
+    .home {
+        .r1 {
+            .r1c1 {
+                padding: 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .wrapper {
+                    width: 256px;
+
+                    .carousel {
+                        transition: 0.7s;
+
+                        .carousel-wrapper {
+
+                            .img {
+                                overflow: hidden;
+                                height: 144px;
+                                transition: 0.7s;
+                            }
+
+                            // .img:hover {
+                            //     transform: scale(1.2);
+                            //     transition: 0.7s;
+                            // }
+                        }
+                    }
+
+                    .h4 {
+                        padding: 0.5rem;
+                        text-align: center;
+                        background-color: #00000020;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .home {
+        .r1 {
+            .r1c1 {
+                .wrapper {
+                    width: 384px;
+
+                    .carousel {
+                        .carousel-wrapper {
+                            .img {
+                                width: 100%;
+                                height: 216px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    padding: 0px;
+    cursor: pointer;
+    // display:table;
+    // width:100%;
+    // height:100%;
+}
+
+.carousel-caption h5 {
+    // display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+    font-family: "Rajdhani", sans-serif !important;
+}

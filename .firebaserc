@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "mb-architects",
+    "mb-architects": "mb-architects"
+  },
+  "targets": {},
+  "etags": {}
+}

@@ -1,0 +1,134 @@
+@import '../../styles/mixins/display';
+@import '../../styles/mixins/size';
+@import '../../styles/theme/theme.scss';
+
+
+@media screen and (min-width: 0px) {
+    .home {
+        min-height: 100vh;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .r1 {
+            .r1c1 {
+                .h1 {
+                    text-align: center;
+                    padding: 2rem;
+                }
+            }
+        }
+
+        .r2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            // min-height: 100vh;
+            height: 100%;
+
+            .r2c1 {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                .wrapper {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 1rem;
+                    width: max-content;
+
+                    .mat-button {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: $white;
+                        overflow: hidden;
+                        border: none;
+                        width: 256px;
+                        height: 144px;
+
+                        .img {
+                            height: auto;
+                            width: inherit;
+                            transition: 0.7s;
+                            filter: grayscale(1);
+                        }
+                    }
+
+                    .mat-button:hover {
+                        .img {
+                            transition: 0.7s;
+                            transform: scale(1.2);
+                            filter: grayscale(0) brightness(1);
+                        }
+                    }
+
+                    .h3 {
+                        padding: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 912px) {
+    .home {
+        .r2 {
+            .r2c1 {
+                .wrapper {
+                    .mat-button {
+                        width: 256px;
+                        height: 384px;
+
+                        .img {
+                            height: inherit;
+                            width: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .home {
+        .r1 {
+            .r1c1 {
+
+                // height: 256px;
+                // display: flex;
+                // justify-content: center;
+                // align-items: flex-end;
+                .h1 {
+                    text-align: center;
+                    padding: 2rem;
+                }
+            }
+        }
+
+        .r2 {
+            .r2c1 {
+                .wrapper {
+                    padding: 0;
+
+                    .mat-button {
+                        width: 256px;
+                        height: 384px;
+                        padding: 0;
+
+                        .img {
+                            height: inherit;
+                            width: auto;
+                            transform: scale(1.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+@import '../../styles/mixins/display';
+@import '../../styles/mixins/size';
+@import '../../styles/theme/theme.scss';
+
+@media screen and (min-width: 0px) {
+    .home {
+        .r1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            // >.h1 {
+            //     text-align: center;
+            //     padding: 2rem;
+            // }
+
+            .r1c1 {
+                .carousel {
+                    .img-wrapper {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 1rem;
+                        border-radius: 1rem;
+                        //height: 200px;
+                        margin: 1rem !important;
+
+                        .img{
+                            width: 350px;
+                            height: 380px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// @media screen and (min-width: 425px) {
+//     .home {
+//         .r1 {
+//             .r1c1 {
+//                 .carousel {
+//                     .img-wrapper {
+//                         display: flex;
+//                         justify-content: center;
+//                         align-items: center;
+//                         padding: 1rem;
+//                         border-radius: 1rem;
+//                         height: 200px;
+//                         margin: 1rem !important;
+
+//                         // .img{
+//                         //     width: 250px;
+//                         //     height: 250px;
+//                         // }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+
+// @media screen and (min-width: 992px) {
+//     .home {
+//         .r1 {
+//             .r1c1 {
+//                 .carousel {
+//                     .img-wrapper {
+//                         display: flex;
+//                         justify-content: center;
+//                         align-items: center;
+//                         padding: 1rem;
+//                         border-radius: 1rem;
+//                         height: 200px;
+//                         margin: 1rem !important;
+
+//                         // .img{
+//                         //     width: 300px;
+//                         //     height: 300px;
+//                         // }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

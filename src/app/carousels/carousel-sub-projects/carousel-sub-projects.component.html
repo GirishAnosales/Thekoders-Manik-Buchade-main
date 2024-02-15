@@ -1,0 +1,39 @@
+<div class="container-fluid home">
+    <div class="row r1">
+        <div class="col-lg-12 r1c1">
+            <div class="wrapper">
+                <div class="carousel" (click)="startProgressBar(name)" (mouseleave)="resetProgressBar()">
+                    <owl-carousel-o [options]="carousel">
+                        <ng-template carouselSlide *ngFor="let imageUrl of images">
+                            <div class="carousel-wrapper">
+                                <img class="img" [src]="imageUrl" alt="Carousel Slide" />
+                                <div class="carousel-caption">
+                                    <h5>View More</h5>
+                                </div>
+                            </div>
+                        </ng-template>
+                    </owl-carousel-o>
+                    <!-- <div class="progress-container">
+                        <mat-progress-bar class="progress" style="background-color: black;" [style.width.%]="progress"
+                            mode="determinate"></mat-progress-bar>
+                    </div> -->
+                </div>
+
+                <!-- <div class="carousel">
+                    <ngb-carousel *ngIf="images" [interval]="0">
+                        <ng-template ngbSlide *ngFor="let imageUrl of images">
+                            <div class="carousel-wrapper">
+                                <img class="img" [src]="imageUrl" alt="Carousel Slide" />
+                            </div>
+                            <div class="carousel-caption" [routerLink]="">
+                                <h3>First slide label</h3>
+                            </div>
+                        </ng-template>
+                    </ngb-carousel>
+                </div> -->
+
+                <h4 class="h4">{{name}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

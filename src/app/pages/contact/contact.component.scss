@@ -1,0 +1,31 @@
+@import '../../styles/mixins/display';
+@import '../../styles/mixins/size';
+@import '../../styles/theme/theme.scss';
+
+@media screen and (min-width: 0px) {
+    .home {
+        //height: 92vh;
+        height: 100% !important;
+
+        .r1 {
+            @include center-top;
+
+            .r1c1 {
+                @include center-center;
+
+                .h1 {
+                    padding: 4rem;
+                }
+            }
+
+            .r1c3 {
+                @include center-top;
+
+                .h1,
+                .h3 {
+                    padding: 1rem;
+                }
+            }
+        }
+    }
+}

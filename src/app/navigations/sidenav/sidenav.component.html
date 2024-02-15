@@ -1,0 +1,126 @@
+<div class="container-fluid home">
+    <div class="row r1">
+        <div class="col-sm-12 r1c1">
+
+            <mat-toolbar class="mat-toolbar">
+                <div class="row r1c1r1">
+                    <div class="col-sm-4 r1c1r1c1" *ngIf="!(isXSmall | async)">
+                        <div class="social-media-group">
+                            <a class="mat-icon-button" target="_blank" [href]="socialMediaLinksServiceData.facebook"
+                                mat-icon-button>
+                                <i class="bi-facebook bi-icon"></i>
+                            </a>
+                            <!-- <a class="mat-icon-button" target="_blank" [href]="socialMediaLinksServiceData.pinterest"
+                                mat-icon-button>
+                                <i class="bi-pinterest bi-icon"></i>
+                            </a> -->
+                            <a class="mat-icon-button" target="_blank" [href]="socialMediaLinksServiceData.linkedin"
+                                mat-icon-button>
+                                <i class="bi-linkedin bi-icon"></i>
+                            </a>
+                            <a class="mat-icon-button" target="_blank" [href]="socialMediaLinksServiceData.instagram"
+                                mat-icon-button>
+                                <i class="bi-instagram bi-icon"></i>
+                            </a>
+                        </div>
+                        <!-- <button class="button" id="curtain" [cdkMenuTriggerFor]="menu" mat-button>Curtain</button> -->
+                    </div>
+
+                    <div class="col-sm-4 r1c1r1c2">
+                        <a class="logo-wrapper" href="home">
+                            <img class="logo" src="../../../assets/logo/manikBuchadeLogo.jpg"
+                                alt="Anup Lifestyles Logo">
+                        </a>
+                    </div>
+
+                    <div class="col-sm-4 r1c1r1c3">
+                        <div class="button-group">
+                            <button class="mat-icon-button" type="button" aria-label="Toggle sidenav" mat-icon-button
+                                (click)="drawer.toggle()">
+                                <mat-icon class="mat-icon">menu</mat-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </mat-toolbar>
+
+            <mat-sidenav-container class="mat-sidenav-container" dir="ltr">
+                <mat-sidenav #drawer class="mat-sidenav" fixedTopGap="64"
+                    [attr.role]="(isSmall | async) ? 'dialog' : 'navigation'" mode="over">
+
+                    <!-- <h6 class="h6">Page 1</h6> -->
+                    <mat-nav-list class="mat-nav-list" dir="ltr">
+
+                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/home">
+                            <h6 class="h6">Home</h6>
+                        </a>
+
+                        <!-- About -->
+                        <mat-accordion class="mat-accordion">
+                            <mat-expansion-panel class="mat-expansion-panel" hideToggle>
+                                <mat-expansion-panel-header class="mat-expansion-panel-header">
+                                    <mat-panel-title class="mat-panel-title">
+                                        <h6 class="h6">About</h6>
+                                    </mat-panel-title>
+                                </mat-expansion-panel-header>
+
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/vision-and-mission">
+                                    <h6 class="h6">Vision & Mission</h6>
+                                </a>
+                                <a class="a" mat-list-item (click)="drawer.close()"
+                                    routerLink="/clients-and-testimonials">
+                                    <h6 class="h6">Clients & Testimonials</h6>
+                                </a>
+                            </mat-expansion-panel>
+                        </mat-accordion>
+
+                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/projects">
+                            <h6 class="h6">Projects</h6>
+                        </a>
+                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/media">
+                            <h6 class="h6">Media</h6>
+                        </a>
+                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/contact">
+                            <h6 class="h6">Contact</h6>
+                        </a>
+                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/careers">
+                            <h6 class="h6">Careers</h6>
+                        </a>
+
+                    </mat-nav-list>
+                </mat-sidenav>
+
+                <mat-sidenav-content class="mat-sidenav-content">
+
+                    <!-- ROUTER OUTLET -->
+                    <router-outlet></router-outlet>
+
+                </mat-sidenav-content>
+
+            </mat-sidenav-container>
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>
+
+<!-- <ng-template #menu>
+    <div class="cdk-menu" [@slideOutToTop] cdkMenu>
+        <div class="home">
+            <div class="img" *ngIf="isHomePage"></div>
+            <div class="wrapper">
+                <div class="sub-wrapper">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="../assets/logo/manikBuchadeLogo.jpg" alt="Manik Bhuchade Logo">
+                    </div>
+                    <h1 class="h1 name">Manik Buchade Architects</h1>
+                </div>
+                <h1 class="h1 tag-line">Design Creates Culture</h1>
+                <div class="icon">
+                    <button class="mat-icon-button" [cdkMenuTriggerFor]="menu">
+                        <mat-icon class="mat-icon">keyboard_arrow_up</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template> -->

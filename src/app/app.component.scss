@@ -1,0 +1,461 @@
+@import './styles/mixins/size';
+@import './styles/mixins/display';
+@import './styles/mixins/typography';
+@import './styles/mixins/responsive';
+@import './styles/mixins/images';
+
+//$url1: '../assets/images/pages/home/insideHouse.jpg';
+
+//$url1: '../assets/video/Videoforbackground.mov';
+
+.slideOutToTop {
+    animation: slideOutToTopAnimation 1s ease-in-out;
+}
+
+@keyframes slideOutToTopAnimation {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+@media screen and (min-width: 0px) {
+    .cdk-menu {
+        // min-width: 100vw;
+        width: 100%;
+        height: 100vh;
+        // padding: 2rem 1rem 6rem 1rem;
+        // margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(40px);
+        // overflow: auto;
+        position: absolute;
+        z-index: 999;
+
+        // .img {
+        //     @include height-width-100-percent;
+        //     @include min-height-100;
+        //     @include width-100-percent;
+        //     @include background-image($url1);
+        // }
+
+        .wrapper {
+            @include width-100-percent;
+            @include min-height-100;
+            @include space-between-center;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+
+            .sub-wrapper {
+                .logo-wrapper {
+                    @include width-100-percent;
+                    @include center-center;
+                    padding: 2rem;
+
+                    .logo {
+                        @include dynamic-height-width-percent(3rem, 3rem);
+                    }
+                }
+
+                .name {
+                    @include center-center;
+                    @include responsive-text-name;
+                    color: white;
+                }
+            }
+
+            .tag-line {
+                @include height-width-100-percent;
+                @include center-center;
+                @include responsive-text-tag-line;
+                color: white;
+                font-family: 'Dancing Script', cursive !important;
+                position: relative;
+                top: 15%;
+            }
+
+            .icon {
+                @include height-width-100-percent;
+                @include center-bottom;
+                // position: absolute;
+                // top: 0;
+
+                .mat-icon-button {
+                    background-color: inherit;
+                    border: 0;
+
+                    .mat-icon {
+                        @include dynamic-height-width-percent(6rem, 6rem);
+                        font-size: 6rem;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 0px) {
+    .home {
+        .img {
+            @include height-width-100-percent;
+            @include min-height-100;
+            @include width-100-percent;
+            // @include background-image($url1);
+            //@include background-image($url1);
+        }
+
+        .wrapper {
+            @include width-100-percent;
+            @include min-height-100;
+            @include space-between-center;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+
+            .sub-wrapper {
+                .logo-wrapper {
+                    @include width-100-percent;
+                    @include center-center;
+                    padding: 2rem;
+
+                    .logo {
+                        @include dynamic-height-width-percent(3rem, 3rem);
+                    }
+                }
+
+                .name {
+                    @include center-center;
+                    @include responsive-text-name;
+                    color: white;
+                }
+            }
+
+            .tag-line {
+                @include height-width-100-percent;
+                @include center-center;
+                @include responsive-text-tag-line;
+                color: white;
+                font-family: 'Dancing Script', cursive !important;
+                position: relative;
+                top: 15%;
+            }
+
+            .icon {
+                @include height-width-100-percent;
+                @include center-bottom;
+                // position: absolute;
+                // top: 0;
+
+                .mat-icon-button {
+                    background-color: inherit;
+                    border: 0;
+
+                    .mat-icon {
+                        @include dynamic-height-width-percent(6rem, 6rem);
+                        font-size: 6rem;
+                        //color: white;
+                        color: rgba(0, 0, 0, 0.1254901961);
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Home Video
+
+#vid-par{
+    //position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#my-vid{
+    //position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.parallax {
+    height: 100vh;
+    
+    
+    &.bg-2 {
+      //background-image: url("https://wonderfulengineering.com/wp-content/uploads/2014/07/background-wallpapers-17.jpg");
+        background-image: url('../assets/images/pages/home/image1.jpg');
+      //background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/pages/home/image1.jpg");
+      min-height: 500px;
+      opacity: 0.5;
+    }
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.text {
+    
+    .tag-line {
+        @include height-width-100-percent;
+        @include center-center;
+        @include responsive-text-tag-line;
+        color: black;
+        font-family: 'Dancing Script', cursive !important;
+        position: absolute;
+        z-index: 111;
+        top: 100%;
+    }
+}
+//     .scrolled {
+//     height: 100vh;
+//     position: relative;
+//   }
+  
+
+
+@import './styles/theme/theme.scss';
+@import './styles/mixins/flex_variations';
+@import './styles/mixins/responsive';
+@import './styles/mixins/size';
+@import './styles/mixins/display';
+@import './styles/mixins/typography';
+@import './styles/mixins/images';
+
+$url1: '../../../assets/images/pages/home/insideHouse.jpg';
+
+// .mat-toolbar {
+//     @extend %df-d-flex-fd-row-jc-center-ai-center;
+// }
+
+
+@media screen and (min-width: 0px) {
+    .home {
+        background-color: $white;
+
+        .r1 {
+            .r1c1 {
+                padding: 0%;
+
+                .mat-toolbar {
+                    background-color: $transparent20;
+                    //backdrop-filter: blur(2rem);
+                    position: sticky;
+                    top: 0;
+                    z-index: 99;
+                    width: 100%;
+
+                    .r1c1r1 {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row-reverse;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        .r1c1r1c1 {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            width: max-content;
+                        }
+
+                        .r1c1r1c2 {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: max-content;
+                        }
+
+                        .r1c1r1c3 {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: center;
+                            position: relative;
+                            top: 15px;
+                            //width: max-content;
+
+                            .button-group {
+                                display: flex;
+                                align-items: center;
+
+                                .mat-button {
+                                    color: $white;
+                                }
+
+                                .mat-icon-button {
+                                    .mat-icon {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        color: $white;
+                                    }
+                                }
+
+                                .mat-icon-button:hover {
+                                    .mat-icon {
+                                        color: $black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+               
+
+                    .mat-sidenav {
+                        background-color: $transparent80;
+                        width: 100% !important;
+                        backdrop-filter: blur(0.5rem);
+                        padding-top: 4rem;
+
+                        .mat-nav-list {
+                            animation: fade-in 2s;
+
+                            .close-button {
+                                display: flex;
+                                align-content: flex-end;
+                                justify-content: flex-end;
+                                align-self: flex-end;
+
+                                .mat-icon-button {
+                                    .mat-icon {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        color: $black;
+                                    }
+                                }
+
+                                .mat-icon-button:hover {
+                                    .mat-icon {
+                                        color: $black;
+                                    }
+                                }
+                            }
+
+                            .a {
+                                text-align: start;
+                                text-indent: 2rem;
+
+                                .h6 {
+                                    text-transform: uppercase;
+                                    color: $white;
+                                    font-size: 1rem;
+                                    transition: 0.3s ease-in-out;
+                                }
+                            }
+
+                            .a:hover {
+                                .h6 {
+                                    // color: $light-beige;
+                                    font-size: 1.3rem;
+                                    transition: 0.3s ease-in-out;
+                                    letter-spacing: 0.5rem;
+                                }
+                            }
+
+                            .mat-accordion {
+                                .mat-expansion-panel {
+                                    background-color: inherit;
+                                    box-shadow: none;
+                                    color: $white;
+
+                                    .mat-expansion-panel-header {
+                                        padding: 0 1rem;
+
+                                        .mat-panel-title {
+                                            .h6 {
+                                                width: 100%;
+                                                text-transform: uppercase;
+                                                text-indent: 2rem;
+                                                color: $white;
+                                                font-size: 1rem;
+                                                transition: 0.3s ease-in-out;
+                                            }
+                                        }
+                                    }
+
+                                    .mat-expansion-panel-header:hover {
+                                        .mat-panel-title {
+                                            .h6 {
+                                                color: $white;
+                                                font-size: 1.3rem;
+                                                transition: 0.3s ease-in-out;
+                                                letter-spacing: 0.5rem;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .mat-sidenav-content{
+                        min-height: 100vh;
+                        height: 100%;
+                    }
+                
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .home {
+        .r1 {
+            .r1c1 {
+                .mat-toolbar {
+                    .r1c1r1 {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                    }
+                }
+
+                    .mat-sidenav {
+                        width: 60% !important;
+                    }
+                
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .home {
+        .r1 {
+            .r1c1 {
+                .mat-toolbar {
+                    .r1c1r1 {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .home {
+        .r1 {
+            .r1c1 {
+                    .mat-sidenav {
+                        width: 30% !important;
+                    }
+            }
+        }
+    }
+}

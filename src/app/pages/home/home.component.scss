@@ -1,0 +1,12 @@
+@media screen and (min-width: 0px) {
+    .home{
+        min-height: 100vh;
+        height: 100%;
+
+        .r1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,215 @@
+<!-- <div class="home">
+    <div class="img" *ngIf="isHomePage"></div>
+    <div class="wrapper" *ngIf="isHomePage">
+        <div class="sub-wrapper">
+            <div class="logo-wrapper">
+                <img class="logo" src="../assets/logo/manikBuchadeLogo.jpg" alt="Manik Bhuchade Logo">
+            </div>
+            <h1 class="h1 name">Manik Buchade Architects</h1>
+        </div>
+        <h1 class="h1 tag-line">Design Creates Culture</h1>
+        <div class="icon">
+            <button class="mat-icon-button" (click)="scrollToSidenav('sidenav')">
+                <mat-icon class="mat-icon">keyboard_arrow_up</mat-icon>
+            </button>
+        </div>
+    </div>
+</div> -->
+
+<!-- <mat-toolbar class="mat-toolbar" style="position: absolute; z-index: 1111; color: white; top: 15px; background: transparent;">
+    <div class="row r1c1r1">
+        <div class="col-sm-4 r1c1r1c3">
+            <div class="button-group">
+                <button class="mat-icon-button" type="button" aria-label="Toggle sidenav" mat-icon-button
+                    (click)="drawer.toggle()">
+                    <mat-icon class="mat-icon">menu</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</mat-toolbar>
+
+<mat-sidenav-container class="mat-sidenav-container" dir="ltr">
+    <mat-sidenav #drawer class="mat-sidenav" fixedTopGap="64"
+         mode="over">
+
+        <mat-nav-list class="mat-nav-list" dir="ltr">
+
+            <a class="a" mat-list-item (click)="drawer.close()" routerLink="/home">
+                <h6 class="h6">Home</h6>
+            </a>
+
+            <mat-accordion class="mat-accordion">
+                <mat-expansion-panel class="mat-expansion-panel" hideToggle>
+                    <mat-expansion-panel-header class="mat-expansion-panel-header">
+                        <mat-panel-title class="mat-panel-title">
+                            <h6 class="h6">About</h6>
+                        </mat-panel-title>
+                    </mat-expansion-panel-header>
+
+                    <a class="a" mat-list-item (click)="drawer.close()" routerLink="/vision-and-mission">
+                        <h6 class="h6">Vision & Mission</h6>
+                    </a>
+                    <a class="a" mat-list-item (click)="drawer.close()"
+                        routerLink="/clients-and-testimonials">
+                        <h6 class="h6">Clients & Testimonials</h6>
+                    </a>
+                </mat-expansion-panel>
+            </mat-accordion>
+
+            <a class="a" mat-list-item (click)="drawer.close()" routerLink="/projects">
+                <h6 class="h6">Projects</h6>
+            </a>
+            <a class="a" mat-list-item (click)="drawer.close()" routerLink="/media">
+                <h6 class="h6">Media</h6>
+            </a>
+            <a class="a" mat-list-item (click)="drawer.close()" routerLink="/contact">
+                <h6 class="h6">Contact</h6>
+            </a>
+            <a class="a" mat-list-item (click)="drawer.close()" routerLink="/careers">
+                <h6 class="h6">Careers</h6>
+            </a>
+
+        </mat-nav-list>
+    </mat-sidenav> -->
+
+<div class="home">
+    <div class="img" *ngIf="isHomePage">
+
+
+    
+        <div class="container-fluid home">
+            <div class="row r1">
+                <div class="col-sm-12 r1c1">
+        
+                    <mat-toolbar class="mat-toolbar" style="background: transparent; position: absolute; z-index: 1111;">
+                        <div class="row r1c1r1">
+        
+                            <div class="col-sm-12 r1c1r1c3">
+                                <div class="button-group">
+                                    <button class="mat-icon-button" type="button" aria-label="Toggle sidenav" mat-icon-button
+                                        (click)="drawer.toggle()">
+                                        <mat-icon class="mat-icon">menu</mat-icon>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </mat-toolbar>
+        
+                        <mat-sidenav #drawer class="mat-sidenav" fixedTopGap="64" mode="over">        
+                            <mat-nav-list class="mat-nav-list" dir="ltr">
+        
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/home">
+                                    <h6 class="h6">Home</h6>
+                                </a>
+        
+                                <!-- About -->
+                                <mat-accordion class="mat-accordion">
+                                    <mat-expansion-panel class="mat-expansion-panel" hideToggle>
+                                        <mat-expansion-panel-header class="mat-expansion-panel-header">
+                                            <mat-panel-title class="mat-panel-title">
+                                                <h6 class="h6">About</h6>
+                                            </mat-panel-title>
+                                        </mat-expansion-panel-header>
+        
+                                        <a class="a" mat-list-item (click)="drawer.close()" routerLink="/vision-and-mission">
+                                            <h6 class="h6">Vision & Mission</h6>
+                                        </a>
+                                        <a class="a" mat-list-item (click)="drawer.close()"
+                                            routerLink="/clients-and-testimonials">
+                                            <h6 class="h6">Clients & Testimonials</h6>
+                                        </a>
+                                    </mat-expansion-panel>
+                                </mat-accordion>
+        
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/projects">
+                                    <h6 class="h6">Projects</h6>
+                                </a>
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/media">
+                                    <h6 class="h6">Media</h6>
+                                </a>
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/contact">
+                                    <h6 class="h6">Contact</h6>
+                                </a>
+                                <a class="a" mat-list-item (click)="drawer.close()" routerLink="/careers">
+                                    <h6 class="h6">Careers</h6>
+                                </a>
+        
+                            </mat-nav-list>
+                        </mat-sidenav>
+                </div>
+            </div>
+        </div>
+        
+
+        <div id="vid-par">
+            <video id="my-vid" autoplay muted loop oncanplay="this.muted=true" onloadstart="this.playbackRate = 0.5;">
+               
+                <source src="../assets/video/Video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- <div class="text">
+            <div class="parallax bg-2"></div>
+            <h1 class="tag-line">Design Creates Culture</h1>
+        </div> -->
+    </div>
+    <div class="wrapper" *ngIf="isHomePage">
+        <div class="sub-wrapper">
+            <div class="logo-wrapper">
+                <img class="logo" src="../assets/logo/manikBuchadeLogo.jpg" alt="Manik Bhuchade Logo">
+            </div>
+            <h1 class="h1 name">MANIK BUCHADE ARCHITECTS</h1>
+        </div>
+        <h1 class="h1 tag-line">Design Creates Culture</h1>
+        <div class="icon">
+            <button class="mat-icon-button" (click)="scrollToSidenav('sidenav')">
+                <mat-icon class="mat-icon">keyboard_arrow_up</mat-icon>
+            </button>
+        </div>
+    </div>
+</div>
+  
+
+<!-- <ng-template #menu>
+    <div class="cdk-menu" [@slideOutToTop] cdkMenu>
+        <div class="home">
+            <div class="img" *ngIf="isHomePage"></div>
+            <div class="wrapper" *ngIf="isHomePage">
+                <div class="sub-wrapper">
+                    <div class="logo-wrapper">
+                        <img class="logo" src="../assets/logo/manikBuchadeLogo.jpg" alt="Manik Bhuchade Logo">
+                    </div>
+                    <h1 class="h1 name">Manik Buchade Architects</h1>
+                </div>
+                <h1 class="h1 tag-line">Design Creates Culture</h1>
+                <div class="icon">
+                    <button class="mat-icon-button" [cdkMenuTriggerFor]="menu">
+                        <mat-icon class="mat-icon">keyboard_arrow_up</mat-icon>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template> -->
+
+<!-- <div class="cdk-menu"  [ngClass]="{'slideOutToTop': isClassActive}">
+    <div class="home">
+        <div class="img" *ngIf="isHomePage"></div>
+        <div class="wrapper">
+            <div class="sub-wrapper">
+                <div class="logo-wrapper">
+                    <img class="logo" src="../assets/logo/manikBuchadeLogo.jpg" alt="Manik Bhuchade Logo">
+                </div>
+                <h1 class="h1 name">Manik Buchade Architects</h1>
+            </div>
+            <h1 class="h1 tag-line">Design Creates Culture</h1>
+            <div class="icon">
+                <button class="mat-icon-button" (click)="toggleClass()">
+                    <mat-icon class="mat-icon">keyboard_arrow_up</mat-icon>
+                </button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<app-sidenav id="sidenav" #sidenav></app-sidenav>

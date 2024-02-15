@@ -1,0 +1,70 @@
+@import '../../styles/theme/theme.scss';
+
+@media screen and (min-width: 0px) {
+    // .mat-dialog-content {
+    //     background-color: inherit;
+
+    .home {
+        .r1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .r1c1 {
+                .form {
+                    .mat-card-header {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                        .mat-card-title {
+                            .h3 {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+
+                    .mat-card-content {
+                        .mat-form-field {
+                            width: 100%;
+                            margin: 1rem 0;
+                            font-size: small;
+                            color: $white !important;
+
+                            .input {
+                                font-size: 1rem;
+                            }
+                        }
+                    }
+                }
+
+                .mat-card-footer {
+                    padding: 1rem;
+
+                    .h6 {
+                        font-size: small;
+                    }
+                }
+
+                .mat-card-actions {
+                    .mat-button {
+                        background-color: $white;
+                        font-size: 1rem;
+                        text-transform: uppercase;
+                        border-radius: 0;
+                        transition: 0.3s;
+                        letter-spacing: 0.2rem;
+                        margin: 1rem 0;
+                    }
+
+                    .mat-button:hover {
+                        opacity: 0.5;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// }

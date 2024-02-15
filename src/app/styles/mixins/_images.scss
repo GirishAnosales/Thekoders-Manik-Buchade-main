@@ -1,0 +1,19 @@
+@mixin default-image {
+    opacity: 0.9;
+    filter: brightness(0.7) contrast(1.1);
+}
+
+@mixin parallax($url) {
+    background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@mixin background-image($url) {
+    //background-image: url($url);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

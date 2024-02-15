@@ -1,0 +1,1922 @@
+@import '../../styles/mixins/consts';
+
+/* %df-d-flex-fd-row-jc-flex-start-ai-flex-start */
+%df-d-flex-fd-row-jc-flex-start-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-flex-start-ai-flex-end */
+%df-d-flex-fd-row-jc-flex-start-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-flex-start-ai-center */
+%df-d-flex-fd-row-jc-flex-start-ai-center {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-jc-flex-start-ai-baseline */
+%df-d-flex-fd-row-jc-flex-start-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-flex-start-ai-stretch */
+%df-d-flex-fd-row-jc-flex-start-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-jc-flex-end-ai-flex-start */
+%df-d-flex-fd-row-jc-flex-end-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-flex-end-ai-flex-end */
+%df-d-flex-fd-row-jc-flex-end-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-flex-end-ai-center */
+%df-d-flex-fd-row-jc-flex-end-ai-center {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-jc-flex-end-ai-baseline */
+%df-d-flex-fd-row-jc-flex-end-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-flex-end-ai-stretch */
+%df-d-flex-fd-row-jc-flex-end-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-jc-center-ai-flex-start */
+%df-d-flex-fd-row-jc-center-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-center-ai-flex-end */
+%df-d-flex-fd-row-jc-center-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-center-ai-center */
+%df-d-flex-fd-row-jc-center-ai-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+/* %df-d-flex-fd-row-jc-center-ai-baseline */
+%df-d-flex-fd-row-jc-center-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-center-ai-stretch */
+%df-d-flex-fd-row-jc-center-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-jc-space-between-ai-flex-start */
+%df-d-flex-fd-row-jc-space-between-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-space-between-ai-flex-end */
+%df-d-flex-fd-row-jc-space-between-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-space-between-ai-center */
+%df-d-flex-fd-row-jc-space-between-ai-center {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-jc-space-between-ai-baseline */
+%df-d-flex-fd-row-jc-space-between-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-space-between-ai-stretch */
+%df-d-flex-fd-row-jc-space-between-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-jc-space-around-ai-flex-start */
+%df-d-flex-fd-row-jc-space-around-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-space-around-ai-flex-end */
+%df-d-flex-fd-row-jc-space-around-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-space-around-ai-center */
+%df-d-flex-fd-row-jc-space-around-ai-center {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-jc-space-around-ai-baseline */
+%df-d-flex-fd-row-jc-space-around-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-space-around-ai-stretch */
+%df-d-flex-fd-row-jc-space-around-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-jc-space-evenly-ai-flex-start */
+%df-d-flex-fd-row-jc-space-evenly-ai-flex-start {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-jc-space-evenly-ai-flex-end */
+%df-d-flex-fd-row-jc-space-evenly-ai-flex-end {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-jc-space-evenly-ai-center */
+%df-d-flex-fd-row-jc-space-evenly-ai-center {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-jc-space-evenly-ai-baseline */
+%df-d-flex-fd-row-jc-space-evenly-ai-baseline {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-jc-space-evenly-ai-stretch */
+%df-d-flex-fd-row-jc-space-evenly-ai-stretch {
+  @include d-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-start-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-flex-start-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-start-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-flex-start-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-start-ai-center */
+%df-d-flex-fd-row-reverse-jc-flex-start-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-start-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-flex-start-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-start-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-flex-start-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-end-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-flex-end-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-end-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-flex-end-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-end-ai-center */
+%df-d-flex-fd-row-reverse-jc-flex-end-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-end-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-flex-end-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-flex-end-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-flex-end-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-center-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-center-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-center-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-center-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-center-ai-center */
+%df-d-flex-fd-row-reverse-jc-center-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-center-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-center-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-center-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-center-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-between-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-space-between-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-between-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-space-between-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-between-ai-center */
+%df-d-flex-fd-row-reverse-jc-space-between-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-between-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-space-between-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-between-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-space-between-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-around-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-space-around-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-around-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-space-around-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-around-ai-center */
+%df-d-flex-fd-row-reverse-jc-space-around-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-around-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-space-around-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-around-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-space-around-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-evenly-ai-flex-start */
+%df-d-flex-fd-row-reverse-jc-space-evenly-ai-flex-start {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-evenly-ai-flex-end */
+%df-d-flex-fd-row-reverse-jc-space-evenly-ai-flex-end {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-evenly-ai-center */
+%df-d-flex-fd-row-reverse-jc-space-evenly-ai-center {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-evenly-ai-baseline */
+%df-d-flex-fd-row-reverse-jc-space-evenly-ai-baseline {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-row-reverse-jc-space-evenly-ai-stretch */
+%df-d-flex-fd-row-reverse-jc-space-evenly-ai-stretch {
+  @include d-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-flex-start-ai-flex-start */
+%df-d-flex-fd-column-jc-flex-start-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-flex-start-ai-flex-end */
+%df-d-flex-fd-column-jc-flex-start-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-flex-start-ai-center */
+%df-d-flex-fd-column-jc-flex-start-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-flex-start-ai-baseline */
+%df-d-flex-fd-column-jc-flex-start-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-flex-start-ai-stretch */
+%df-d-flex-fd-column-jc-flex-start-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-flex-end-ai-flex-start */
+%df-d-flex-fd-column-jc-flex-end-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-flex-end-ai-flex-end */
+%df-d-flex-fd-column-jc-flex-end-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-flex-end-ai-center */
+%df-d-flex-fd-column-jc-flex-end-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-flex-end-ai-baseline */
+%df-d-flex-fd-column-jc-flex-end-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-flex-end-ai-stretch */
+%df-d-flex-fd-column-jc-flex-end-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-center-ai-flex-start */
+%df-d-flex-fd-column-jc-center-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-center-ai-flex-end */
+%df-d-flex-fd-column-jc-center-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-center-ai-center */
+%df-d-flex-fd-column-jc-center-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-center-ai-baseline */
+%df-d-flex-fd-column-jc-center-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-center-ai-stretch */
+%df-d-flex-fd-column-jc-center-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-space-between-ai-flex-start */
+%df-d-flex-fd-column-jc-space-between-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-space-between-ai-flex-end */
+%df-d-flex-fd-column-jc-space-between-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-space-between-ai-center */
+%df-d-flex-fd-column-jc-space-between-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-space-between-ai-baseline */
+%df-d-flex-fd-column-jc-space-between-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-space-between-ai-stretch */
+%df-d-flex-fd-column-jc-space-between-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-space-around-ai-flex-start */
+%df-d-flex-fd-column-jc-space-around-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-space-around-ai-flex-end */
+%df-d-flex-fd-column-jc-space-around-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-space-around-ai-center */
+%df-d-flex-fd-column-jc-space-around-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-space-around-ai-baseline */
+%df-d-flex-fd-column-jc-space-around-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-space-around-ai-stretch */
+%df-d-flex-fd-column-jc-space-around-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-jc-space-evenly-ai-flex-start */
+%df-d-flex-fd-column-jc-space-evenly-ai-flex-start {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-jc-space-evenly-ai-flex-end */
+%df-d-flex-fd-column-jc-space-evenly-ai-flex-end {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-jc-space-evenly-ai-center */
+%df-d-flex-fd-column-jc-space-evenly-ai-center {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-jc-space-evenly-ai-baseline */
+%df-d-flex-fd-column-jc-space-evenly-ai-baseline {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-jc-space-evenly-ai-stretch */
+%df-d-flex-fd-column-jc-space-evenly-ai-stretch {
+  @include d-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-start-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-flex-start-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-start-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-flex-start-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-start-ai-center */
+%df-d-flex-fd-column-reverse-jc-flex-start-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-start-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-flex-start-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-start-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-flex-start-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-end-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-flex-end-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-end-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-flex-end-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-end-ai-center */
+%df-d-flex-fd-column-reverse-jc-flex-end-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-end-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-flex-end-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-flex-end-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-flex-end-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-center-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-center-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-center-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-center-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-center-ai-center */
+%df-d-flex-fd-column-reverse-jc-center-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-center-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-center-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-center-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-center-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-between-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-space-between-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-between-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-space-between-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-between-ai-center */
+%df-d-flex-fd-column-reverse-jc-space-between-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-between-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-space-between-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-between-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-space-between-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-around-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-space-around-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-around-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-space-around-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-around-ai-center */
+%df-d-flex-fd-column-reverse-jc-space-around-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-around-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-space-around-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-around-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-space-around-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-evenly-ai-flex-start */
+%df-d-flex-fd-column-reverse-jc-space-evenly-ai-flex-start {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-evenly-ai-flex-end */
+%df-d-flex-fd-column-reverse-jc-space-evenly-ai-flex-end {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-evenly-ai-center */
+%df-d-flex-fd-column-reverse-jc-space-evenly-ai-center {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-evenly-ai-baseline */
+%df-d-flex-fd-column-reverse-jc-space-evenly-ai-baseline {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-flex-fd-column-reverse-jc-space-evenly-ai-stretch */
+%df-d-flex-fd-column-reverse-jc-space-evenly-ai-stretch {
+  @include d-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-start-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-flex-start-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-start-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-flex-start-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-start-ai-center */
+%df-d-inline-flex-fd-row-jc-flex-start-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-start-ai-baseline */
+%df-d-inline-flex-fd-row-jc-flex-start-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-start-ai-stretch */
+%df-d-inline-flex-fd-row-jc-flex-start-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-end-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-flex-end-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-end-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-flex-end-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-end-ai-center */
+%df-d-inline-flex-fd-row-jc-flex-end-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-end-ai-baseline */
+%df-d-inline-flex-fd-row-jc-flex-end-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-flex-end-ai-stretch */
+%df-d-inline-flex-fd-row-jc-flex-end-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-center-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-center-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-center-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-center-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-center-ai-center */
+%df-d-inline-flex-fd-row-jc-center-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-center-ai-baseline */
+%df-d-inline-flex-fd-row-jc-center-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-center-ai-stretch */
+%df-d-inline-flex-fd-row-jc-center-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-between-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-space-between-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-between-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-space-between-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-between-ai-center */
+%df-d-inline-flex-fd-row-jc-space-between-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-between-ai-baseline */
+%df-d-inline-flex-fd-row-jc-space-between-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-between-ai-stretch */
+%df-d-inline-flex-fd-row-jc-space-between-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-around-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-space-around-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-around-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-space-around-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-around-ai-center */
+%df-d-inline-flex-fd-row-jc-space-around-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-around-ai-baseline */
+%df-d-inline-flex-fd-row-jc-space-around-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-around-ai-stretch */
+%df-d-inline-flex-fd-row-jc-space-around-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-evenly-ai-flex-start */
+%df-d-inline-flex-fd-row-jc-space-evenly-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-evenly-ai-flex-end */
+%df-d-inline-flex-fd-row-jc-space-evenly-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-evenly-ai-center */
+%df-d-inline-flex-fd-row-jc-space-evenly-ai-center {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-evenly-ai-baseline */
+%df-d-inline-flex-fd-row-jc-space-evenly-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-jc-space-evenly-ai-stretch */
+%df-d-inline-flex-fd-row-jc-space-evenly-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-flex-start-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-flex-end-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-center-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-center-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-center-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-center-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-center-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-center-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-center-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-center-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-center-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-center-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-between-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-space-between-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-between-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-space-between-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-between-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-space-between-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-between-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-space-between-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-between-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-space-between-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-around-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-space-around-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-around-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-space-around-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-around-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-space-around-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-around-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-space-around-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-around-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-space-around-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-flex-start */
+%df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-flex-end */
+%df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-center */
+%df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-center {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-baseline */
+%df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-baseline {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-stretch */
+%df-d-inline-flex-fd-row-reverse-jc-space-evenly-ai-stretch {
+  @include d-inline-flex;
+  @include fd-row-reverse;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-start-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-flex-start-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-start-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-flex-start-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-start-ai-center */
+%df-d-inline-flex-fd-column-jc-flex-start-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-start-ai-baseline */
+%df-d-inline-flex-fd-column-jc-flex-start-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-start-ai-stretch */
+%df-d-inline-flex-fd-column-jc-flex-start-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-end-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-flex-end-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-end-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-flex-end-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-end-ai-center */
+%df-d-inline-flex-fd-column-jc-flex-end-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-end-ai-baseline */
+%df-d-inline-flex-fd-column-jc-flex-end-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-flex-end-ai-stretch */
+%df-d-inline-flex-fd-column-jc-flex-end-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-center-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-center-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-center-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-center-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-center-ai-center */
+%df-d-inline-flex-fd-column-jc-center-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-center-ai-baseline */
+%df-d-inline-flex-fd-column-jc-center-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-center-ai-stretch */
+%df-d-inline-flex-fd-column-jc-center-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-between-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-space-between-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-between-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-space-between-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-between-ai-center */
+%df-d-inline-flex-fd-column-jc-space-between-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-between-ai-baseline */
+%df-d-inline-flex-fd-column-jc-space-between-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-between-ai-stretch */
+%df-d-inline-flex-fd-column-jc-space-between-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-around-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-space-around-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-around-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-space-around-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-around-ai-center */
+%df-d-inline-flex-fd-column-jc-space-around-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-around-ai-baseline */
+%df-d-inline-flex-fd-column-jc-space-around-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-around-ai-stretch */
+%df-d-inline-flex-fd-column-jc-space-around-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-evenly-ai-flex-start */
+%df-d-inline-flex-fd-column-jc-space-evenly-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-evenly-ai-flex-end */
+%df-d-inline-flex-fd-column-jc-space-evenly-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-evenly-ai-center */
+%df-d-inline-flex-fd-column-jc-space-evenly-ai-center {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-evenly-ai-baseline */
+%df-d-inline-flex-fd-column-jc-space-evenly-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-jc-space-evenly-ai-stretch */
+%df-d-inline-flex-fd-column-jc-space-evenly-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-flex-start-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-start;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-flex-end-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-flex-end;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-center-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-center-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-center-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-center-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-center-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-center-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-center-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-center-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-center-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-center-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-center;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-between-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-space-between-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-between-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-space-between-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-between-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-space-between-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-between-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-space-between-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-between-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-space-between-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-between;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-around-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-space-around-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-around-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-space-around-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-around-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-space-around-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-around-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-space-around-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-around-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-space-around-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-around;
+  @include ai-stretch;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-flex-start */
+%df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-flex-start {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-start;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-flex-end */
+%df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-flex-end {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-flex-end;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-center */
+%df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-center {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-center;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-baseline */
+%df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-baseline {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-baseline;
+}
+
+/* %df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-stretch */
+%df-d-inline-flex-fd-column-reverse-jc-space-evenly-ai-stretch {
+  @include d-inline-flex;
+  @include fd-column-reverse;
+  @include jc-space-evenly;
+  @include ai-stretch;
+}
+

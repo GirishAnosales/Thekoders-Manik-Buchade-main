@@ -1,0 +1,29 @@
+<div class="container-fluid home">
+    <div class="row r1">
+        <h1 class="h1">Clients</h1>
+        <div class="col-sm-12 r1c1">
+            <div class="carousel">
+                <owl-carousel-o [options]="carousel1">
+                    <ng-template *ngFor="let image of images1" carouselSlide>
+                        <div class="img-wrapper">
+                            <img class="img" [src]="image.path" alt="Home carousel images">
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+    <div class="row r1">
+        <div class="col-sm-12 r1c1">
+            <div class="carousel">
+                <owl-carousel-o [options]="carousel2">
+                    <ng-template *ngFor="let image of images2" carouselSlide>
+                        <div class="img-wrapper">
+                            <img class="img" [src]="image.path" alt="Home carousel images">
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</div>
