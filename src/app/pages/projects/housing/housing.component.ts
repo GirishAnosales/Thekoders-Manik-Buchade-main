@@ -514,7 +514,7 @@ export class HousingComponent {
 		//"Agrawal Akash Etasha",
 		"Goyal Ganga Asmi (Wakad)",
 		//"Abhishek Pandhre",
-		"Grand West (Thergaon)",
+		"19 Grand West (Thergaon)",
 		//"Kate Satyawan Dapodi",
 		"Nakoda (Shine City) (Chikhali)",
 		//"Sarthak Buildtech Moshi",

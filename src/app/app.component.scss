@@ -65,7 +65,11 @@
                 .name {
                     @include center-center;
                     @include responsive-text-name;
-                    color: white;
+                    //color: white;
+                    font-weight: bold;
+                    background : linear-gradient(90deg, rgba(93,150,161,1) 0%, rgba(133,154,173,1) 35%, rgba(68,67,124,1) 100%);
+                    -webkit-text-fill-color: transparent;
+			        -webkit-background-clip: text;
                 }
             }
 
@@ -132,7 +136,11 @@
                 .name {
                     @include center-center;
                     @include responsive-text-name;
-                    color: white;
+                    //color: white;
+                    font-weight: bold;
+                    background: linear-gradient(90deg, rgba(93,150,161,1) 0%, rgba(133,154,173,1) 35%, rgba(68,67,124,1) 100%);
+                    -webkit-text-fill-color: transparent;
+			        -webkit-background-clip: text;
                 }
             }
 
